@@ -1,0 +1,70 @@
+.page {
+  max-width: 900px;
+  margin: 30px auto;          /* adds space around it */
+  background: white;
+
+  border: 3px solid #3a2f2f;  /* OUTLINE (main fix) */
+  border-radius: 12px;        /* smooth corners */
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2); /* depth */
+}
+
+body {
+  background: #d6d1c7; /* soft contrast background */
+}
+
+header {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+footer {
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+
+.section{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#5a4444;
+}
+
+/* Dropdown */
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropbtn {
+  background: #5a4444;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 8px 12px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: white;
+  min-width: 120px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+  color: #2c2c2c;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background: #f4f1ea;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
